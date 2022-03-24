@@ -1,0 +1,146 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:3:1-36:12
+MERGED from [com.android.support:support-v13:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/6be95b20bd420673d2767aa016181ea1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/e96cc3f46b27a9ac5c90cfb8ea373c44/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/b22709b374b1a3f633fb7050000c5db8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/3eb51a1a3f0eefc07bba3035a3c43f42/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.0] /home/matt/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/afc3329f20c9a1a7ee4e51213f34e7be/AndroidManifest.xml:2:1-11:12
+MERGED from [org.tensorflow:tensorflow-android:1.8.0] /home/matt/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/7381361cf6c2d553e7e93d5b0a175681/AndroidManifest.xml:2:1-8:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/db0a5eb6bd91afba5a71d48abbf883c0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/bae3f29ac72458183e68cd699d9787b2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/738526330f471a90d59b5b6e3df20ff7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/ed2da69f47f9f829464aa476b55ba055/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/007364de8ad76d15688c15b3cb000a7b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/7106ec083b59bb1bc26e14f365f5e288/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/bf20e1ca8b27ffe287545c37b46dc748/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/matt/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c0cbc900baf651de655220b653121640/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/matt/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/44d67adafc93745c84fc3dc722ab3b7f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/matt/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/406a1e1e2c93474baef9588c2d9a9c6c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/matt/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/15e213f362c4530900f5d34f2d7467b9/AndroidManifest.xml:17:1-22:12
+	package
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:4:5-49
+	xmlns:android
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:3:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:5:22-62
+uses-feature#android.hardware.camera
+ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:7:5-60
+	android:name
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:7:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:8:5-70
+	android:name
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:8:19-67
+uses-permission#android.permission.INTERNET
+ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:11:22-63
+application
+ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:12:5-34:19
+MERGED from [com.android.volley:volley:1.1.0] /home/matt/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/afc3329f20c9a1a7ee4e51213f34e7be/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /home/matt/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/afc3329f20c9a1a7ee4e51213f34e7be/AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-android:1.8.0] /home/matt/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/7381361cf6c2d553e7e93d5b0a175681/AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-android:1.8.0] /home/matt/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/7381361cf6c2d553e7e93d5b0a175681/AndroidManifest.xml:5:5-6:19
+	android:supportsRtl
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:13:9-38
+	android:icon
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:15:9-45
+provider#android.support.v4.content.FileProvider
+ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:18:9-26:20
+	android:grantUriPermissions
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:19:13-71
+	android:exported
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:20:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:23:13-25:54
+	android:resource
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:25:17-51
+	android:name
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:24:17-67
+activity#com.futonchild.android.hotornotdog.CameraActivity
+ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:27:9-33:20
+	android:screenOrientation
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:28:13-49
+	android:name
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:27:19-83
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:29:13-32:29
+action#android.intent.action.MAIN
+ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:31:27-74
+uses-sdk
+INJECTED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml
+INJECTED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/6be95b20bd420673d2767aa016181ea1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/6be95b20bd420673d2767aa016181ea1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/e96cc3f46b27a9ac5c90cfb8ea373c44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/e96cc3f46b27a9ac5c90cfb8ea373c44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/b22709b374b1a3f633fb7050000c5db8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/b22709b374b1a3f633fb7050000c5db8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/3eb51a1a3f0eefc07bba3035a3c43f42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/3eb51a1a3f0eefc07bba3035a3c43f42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.0] /home/matt/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/afc3329f20c9a1a7ee4e51213f34e7be/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] /home/matt/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/afc3329f20c9a1a7ee4e51213f34e7be/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/db0a5eb6bd91afba5a71d48abbf883c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/db0a5eb6bd91afba5a71d48abbf883c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/bae3f29ac72458183e68cd699d9787b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/bae3f29ac72458183e68cd699d9787b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/738526330f471a90d59b5b6e3df20ff7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/738526330f471a90d59b5b6e3df20ff7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/ed2da69f47f9f829464aa476b55ba055/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/ed2da69f47f9f829464aa476b55ba055/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/007364de8ad76d15688c15b3cb000a7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/007364de8ad76d15688c15b3cb000a7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/7106ec083b59bb1bc26e14f365f5e288/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/7106ec083b59bb1bc26e14f365f5e288/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/bf20e1ca8b27ffe287545c37b46dc748/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/matt/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/bf20e1ca8b27ffe287545c37b46dc748/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/matt/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c0cbc900baf651de655220b653121640/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/matt/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c0cbc900baf651de655220b653121640/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/matt/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/44d67adafc93745c84fc3dc722ab3b7f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/matt/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/44d67adafc93745c84fc3dc722ab3b7f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/matt/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/406a1e1e2c93474baef9588c2d9a9c6c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/matt/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/406a1e1e2c93474baef9588c2d9a9c6c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/matt/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/15e213f362c4530900f5d34f2d7467b9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/matt/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/15e213f362c4530900f5d34f2d7467b9/AndroidManifest.xml:20:5-44
+INJECTED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml
+INJECTED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml
+		ADDED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:3:1-36:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/matt/gits/hot_or_notdog/Application/src/main/AndroidManifest.xml:3:1-36:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
