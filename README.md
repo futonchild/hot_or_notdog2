@@ -12,10 +12,9 @@ The app has a feature that lets users tell you whether the classifier got it rig
 
 Issues
 ------
-
-The size of the supplied .pb graph is too large for the app to be made available on Play store and too large to be uploaded to GitHub. I have tried lots of things to bring down the size, but nothing has worked. Any help in this regard would be much appreciated.
+Originally intended to be used with a Tensorflow graph.pb generated from [a python scipt](https://github.com/futonchild/hotdog_detector2). Unfortunately, the size of the generated graph is too large for the app to be made available on Play store and too large to be uploaded to GitHub. I have tried lots of things to bring down the size, but nothing has worked. Any help in this regard would be much appreciated.
 
 Screenshot
 ----------
 
-[!screenshot](docs/hotdog.jpg)
+![screenshot](docs/hotdog.jpg)
